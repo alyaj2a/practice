@@ -1,0 +1,6 @@
+name: Forcontu Hello
+type: module
+description: 'Displays a basic page.'
+core: 8.x
+
+package: Forcontu

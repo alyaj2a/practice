@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains \Drupal\forcontu_hello\Controller\ForcontuHelloController.
+ */
+
+ namespace Drupal\forcontu_hello\Controller;
+
+ use Drupal\Core\Controller\ControllerBase;
+
+class ForcontuHelloController extends ControllerBase{
+
+  public function hello(){
+    return array(
+      '#markup' => '<p>'.$this->t('Hello, Forcontu! This is my first module in Drupal 8').'</p>',
+    );
+  }
+}
